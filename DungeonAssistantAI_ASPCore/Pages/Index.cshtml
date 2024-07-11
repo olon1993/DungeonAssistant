@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@await Html.PartialAsync("_NoticeRow", Model.noticeRow)
+
+@await Html.PartialAsync("_SingleImageRow", Model.singleImageRow)
+
+@await Html.PartialAsync("_ThreeColumnRow", Model)

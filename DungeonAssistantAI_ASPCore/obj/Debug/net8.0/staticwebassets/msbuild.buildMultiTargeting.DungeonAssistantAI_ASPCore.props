@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DungeonAssistantAI_ASPCore.props" />
+</Project>

@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+}
+
+.Notify {
+    background-color: red;
+    height: 30px;
+}
+
+.Notify p {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nopadding {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.column33 {
+    border: 1px solid red;
+    float: left;
+    height: 100%;
+    width: 33.33%;
+}
+
+.column90 {
+    border: 1px solid red;
+    float: left;
+    height: 100%;
+    width: 90%;
+}
+
+.column10 {
+    border: 1px solid red;
+    float: left;
+    height: 100%;
+    width: 10%;
+}
+
+.row {
+    border: 1px solid black;
+    height: max-content;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

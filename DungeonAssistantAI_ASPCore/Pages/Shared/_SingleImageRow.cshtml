@@ -1,0 +1,13 @@
+﻿@model DungeonAssistantAI_ASPCore.Models.SingleImageRowModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<div class="container-fluid @Model.CssClass">
+        <div class="row">
+            <div class="col-lg-12 p-0 center">
+                <a href="#" target="_blank">
+                    <img class="img-fluid align-content-center" src="@Url.Content(Model.ImagePath)" />
+                </a>
+            </div>
+        </div>
+</div>
