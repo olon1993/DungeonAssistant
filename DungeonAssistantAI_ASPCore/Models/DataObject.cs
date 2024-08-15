@@ -7,6 +7,7 @@
         public DateTime Deleted { get; set; }
         public DateTime LastUpdated { get; set; }
         public DateTime LastAccessed { get; set; }
+        public Guid LastAccessedBy { get; set; }
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
 

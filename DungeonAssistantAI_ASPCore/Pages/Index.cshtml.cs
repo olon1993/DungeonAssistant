@@ -1,4 +1,5 @@
 using DungeonAssistantAI_ASPCore.Models;
+using DungeonAssistantAI_ASPCore.Services;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -8,7 +9,9 @@ namespace DungeonAssistantAI_ASPCore.Pages
 	public class IndexModel : PageModel
 	{
         private readonly ILogger<IndexModel> _logger;
+        private IDataAccessService _dataAccessService;
         private IOpenAiService _openAiService;
+
 
         public NoticeRowModel noticeRow { get; private set; } = new NoticeRowModel();
 
@@ -16,8 +19,9 @@ namespace DungeonAssistantAI_ASPCore.Pages
 
         public ChatModel chatModel { get; set; } = new ChatModel();
 
-        public IndexModel(IOpenAiService openAiService, ILogger<IndexModel> logger)
+        public IndexModel(IDataAccessService dataAccessService, IOpenAiService openAiService, ILogger<IndexModel> logger)
 		{
+            _dataAccessService = dataAccessService;
             _openAiService = openAiService;
             _logger = logger;
             LoadDefaultValues();

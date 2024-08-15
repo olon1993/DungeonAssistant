@@ -1,9 +1,11 @@
 using DungeonAssistantAI_ASPCore;
+using DungeonAssistantAI_ASPCore.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<IDataAccessService, DataAccessService>();
 builder.Services.AddSingleton<IOpenAiService, OpenAiService>();
 
 var app = builder.Build();

@@ -59,6 +59,14 @@
             "OpenAI-DotNet": {
               "target": "Package",
               "version": "[8.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.0, )"
             }
           },
           "imports": [

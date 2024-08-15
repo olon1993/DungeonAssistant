@@ -12,7 +12,7 @@ namespace DungeonAssistantAI_ASPCore
 
         public OpenAiService()
         {
-            string key = Environment.GetEnvironmentVariable(KEY);
+            string key = Environment.GetEnvironmentVariable(KEY, EnvironmentVariableTarget.User);
             api = new OpenAIClient(key);
         }
 
