@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
     <PackageReference Include="OpenAI-DotNet" Version="8.1.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="xunit" Version="2.9.0" />
   </ItemGroup>
 
 </Project>

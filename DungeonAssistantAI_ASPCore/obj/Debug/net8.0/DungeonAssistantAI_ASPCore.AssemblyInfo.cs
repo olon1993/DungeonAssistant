@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DungeonAssistantAI_ASPCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5528d0f043b561a764a17edb32b13bab3ecd235e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d502a1ee9e0c1ab32d1e3f944c99f7eed9504f86")]
 [assembly: System.Reflection.AssemblyProductAttribute("DungeonAssistantAI_ASPCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DungeonAssistantAI_ASPCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

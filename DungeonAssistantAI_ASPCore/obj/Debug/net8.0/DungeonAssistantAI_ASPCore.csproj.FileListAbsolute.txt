@@ -232,3 +232,7 @@ C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCor
 C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
 C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\xunit.core.dll
+C:\Users\olon1\source\repos\DungeonAssistantAI_ASPCore\DungeonAssistantAI_ASPCore\bin\Debug\net8.0\xunit.execution.dotnet.dll
